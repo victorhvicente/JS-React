@@ -47,7 +47,7 @@ export default function Contador() {
                             <button className='botao-incrementar-homem' onClick={()=> setContadorHomem(contadorHomem + 1)}></button>
                             <button className='botao-decrementar-homem' onClick={decrementarHomem}></button>
                         </div>
-                        <h3>Homens</h3>
+                        <h3>Homem</h3>
                         <div className='total'> 
                             {contadorHomem}
                         </div>
@@ -59,7 +59,7 @@ export default function Contador() {
                             <button className='botao-incrementar-mulher' onClick={()=> setContadorMulher(contadorMulher + 1)}></button>
                             <button className='botao-decrementar-mulher' onClick={decrementarMulher}></button>
                         </div>
-                        <h3>Mulheres</h3>
+                        <h3>Mulher</h3>
                         <div className='total'> 
                             {contadorMulher}
                         </div>
