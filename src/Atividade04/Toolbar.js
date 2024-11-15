@@ -15,7 +15,7 @@ export default function Toolbar() {
             alert('You clicked on the toolbar !');
         }}>
             <Button onClick={() => alert('Playing!')}>
-                Play Movie
+                Plaay Movie
             </Button>
             <Button onClick={() => alert('Uploading!')}>
                 Upload Image
