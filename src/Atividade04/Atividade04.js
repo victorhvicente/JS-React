@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Toolbar from "./Toolbar";
 import Gallery from "./Gallery";
 import Counter from "./Counter";
+import MovingDot from "./MovingDot";
 
 function Atividade04() {
     return(
@@ -11,6 +12,7 @@ function Atividade04() {
             <Toolbar /><br/><br/>
             <Gallery />
             <Counter />
+            <MovingDot />
         </> 
 
     );
