@@ -3,6 +3,7 @@ import Toolbar from "./Toolbar";
 import Gallery from "./Gallery";
 import Counter from "./Counter";
 import MovingDot from "./MovingDot";
+import Form from "./Form";
 
 function Atividade04() {
     return(
@@ -10,9 +11,10 @@ function Atividade04() {
          <>
             <h1>Atividade 04</h1><br/><br/>
             <Toolbar /><br/><br/>
-            <Gallery />
-            <Counter />
-            <MovingDot />
+            <Gallery /><br/><br/>
+            <Counter /><br/><br/>
+            <MovingDot /><br/><br/>
+            <Form /><br/><br/>
         </> 
 
     );
