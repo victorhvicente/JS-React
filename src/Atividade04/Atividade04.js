@@ -5,6 +5,7 @@ import Counter from "./Counter";
 import MovingDot from "./MovingDot";
 import Form from "./Form";
 import Form2 from "./Form2";
+import Form3 from "./Form3";
 
 function Atividade04() {
     return(
@@ -17,6 +18,7 @@ function Atividade04() {
             <MovingDot /><br/><br/>
             <Form /><br/><br/>
             <Form2 /><br/><br/>
+            <Form3 /><br/><br/>
         </> 
 
     );
