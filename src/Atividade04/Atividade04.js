@@ -6,6 +6,8 @@ import MovingDot from "./MovingDot";
 import Form from "./Form";
 import Form2 from "./Form2";
 import Form3 from "./Form3";
+import List1 from "./List1";
+import List2 from "./List2";
 
 function Atividade04() {
     return(
@@ -19,6 +21,8 @@ function Atividade04() {
             <Form /><br/><br/>
             <Form2 /><br/><br/>
             <Form3 /><br/><br/>
+            <List1 /><br/><br/>
+            <List2 /><br/><br/>
         </> 
 
     );
